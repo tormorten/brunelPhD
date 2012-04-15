@@ -1,0 +1,13 @@
+package ac.uk.brunel.cloudhomescreen.presentation.beans.util;
+
+import com.google.appengine.api.users.UserService;
+import com.google.appengine.api.users.UserServiceFactory;
+
+public enum CommonViewUtil {
+    ;
+    private static UserService userService = UserServiceFactory.getUserService();
+
+    public static String createLogoutURL() {
+        return userService.createLogoutURL("../");
+    }
+}

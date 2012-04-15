@@ -1,0 +1,7 @@
+.DS_Store
+build/**/*
+.gradle/**/*
+.idea
+android-home-screen-cloud-server.iml
+android-home-screen-cloud-server.ipr
+android-home-screen-cloud-server.iws
